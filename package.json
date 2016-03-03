@@ -4,8 +4,7 @@
   "description": "gaonan's test project",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
-    "test": "mocha"
+    "build": "./node_modules/.bin/webpack"
   },
   "repository": {
     "type": "git",
@@ -19,13 +18,14 @@
   "homepage": "https://github.com/NangeGao/coda",
   "dependencies": {
     "koa": "^1.1.2",
-    "koa-controller": "^1.1.0",
     "koa-jade": "^2.1.0",
     "vue": "^1.0.17"
   },
   "devDependencies": {
     "babel-core": "^6.6.0",
     "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.14"
   }
 }

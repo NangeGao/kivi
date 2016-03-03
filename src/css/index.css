@@ -1,0 +1,9 @@
+#nav{
+    height: 3em;
+    line-height: 3em;
+}
+#nav li{
+    float: left;
+    width: 100px;
+    border: 1px solid #ddd;
+}
