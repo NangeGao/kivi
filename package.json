@@ -1,0 +1,31 @@
+{
+  "name": "coda",
+  "version": "0.0.1",
+  "description": "gaonan's test project",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NangeGao/coda.git"
+  },
+  "author": "gaonan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NangeGao/coda/issues"
+  },
+  "homepage": "https://github.com/NangeGao/coda",
+  "dependencies": {
+    "koa": "^1.1.2",
+    "koa-controller": "^1.1.0",
+    "koa-jade": "^2.1.0",
+    "vue": "^1.0.17"
+  },
+  "devDependencies": {
+    "babel-core": "^6.6.0",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.12.14"
+  }
+}
