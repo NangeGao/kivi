@@ -1,15 +1,19 @@
+var extractTextWebpackPlugin = require("extract-text-webpack-plugin");
+
 module.exports = {
     entry: "./src/css/index.css",
     output: {
-        path: "./static/css/",
-        filename: "[name].css"
+        filename: "[name].js"
     },
     module: {
         loaders: [
             {
                 test: /\.css$/,
-                loader: "style-loader!css-loader"
+                loader: extractTextWebpackPlugin.extract("style-loader", "css-loader")
             }
         ]
-    }
+    },
+    plugins: [
+        new extractTextWebpackPlugin("./static/css/[name].css")
+    ]
 }
