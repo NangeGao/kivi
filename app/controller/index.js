@@ -1,7 +1,6 @@
 module.exports = {
-
     indexAction: function* (next){
-        this.render("index");
+        this.render("base");
         yield next;
     }
 };
