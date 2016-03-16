@@ -4,6 +4,7 @@ import Router from 'vue-router';
 import MainView from '../pageview/main.vue';
 import HomeView from '../pageview/home.vue';
 import BlogView from '../pageview/blog.vue';
+import AddView from '../pageview/add.vue';
 import AboutView from '../pageview/about.vue';
 
 Vue.use(Router);
@@ -17,7 +18,10 @@ router.map({
         component: HomeView
     },
     '/blog':{
-        component: BlogView
+        component: BlogView,
+    },
+    '/blog/add': {
+        component: AddView
     },
     '/about':{
         component: AboutView
