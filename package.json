@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NangeGao/coda.git"
+    "url": "https://github.com/NangeGao/kivi.git"
   },
   "author": "gaonan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NangeGao/coda/issues"
+    "url": "https://github.com/NangeGao/kivi/issues"
   },
-  "homepage": "https://github.com/NangeGao/coda",
+  "homepage": "https://github.com/NangeGao/kivi",
   "dependencies": {
     "koa": "^1.1.2",
     "koa-jade": "^2.1.0",
